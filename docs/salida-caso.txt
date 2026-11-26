@@ -1,0 +1,11 @@
+ABB inorden inicial: [20 - Diego, 30 - Beto, 40 - Elena, 50 - Ana, 60 - Eva, 70 - Carla, 80 - Felipe]
+ABB tras eliminar 30: [20 - Diego, 40 - Elena, 50 - Ana, 60 - Eva, 70 - Carla, 80 - Felipe]
+FIFO: #1 Ana [50] solicita PC1 | #2 Beto [30] solicita PC2 | #3 Carla [70] solicita PC3
+LIFO 1: ACTUALIZAR matrícula 40
+LIFO 2: ELIMINAR matrícula 30
+ABB restaurado: [20 - Diego, 30 - Beto, 40 - Elena, 50 - Ana, 60 - Eva, 70 - Carla, 80 - Felipe]
+BFS desde PC1: [PC1, SW1, PC3, SRV1, PC2]
+DFS desde PC1: [PC1, SW1, SRV1, PC2, PC3]
+No alcanzables desde PC1: [PC4]
+Recomendaciones para Ana: [Diego (2 en común), Elena (1 en común)]
+No alcanzables tras quitar SW1 -> SRV1: [SRV1, PC2, PC4]
